@@ -6,4 +6,4 @@ function createPhoneNumber(numbers){
 
 function createPhoneNumber(numbers){
   numbers.join('').replace(/(...)(...)(.*)/, '($1) ($2)-($3)')
-}
+} 
